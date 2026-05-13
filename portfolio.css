@@ -142,10 +142,21 @@
         }
 
         .hero-content h1 {
-            font-size: 56px;
+            font-size: 38px;
             margin-bottom: 20px;
             animation: fadeInUp 1s;
+            line-height: 1.2;
+        
         }
+@media (max-width: 768px) {
+    .hero .container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+}
 
         .hero-content h2 {
             font-size: 32px;
