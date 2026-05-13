@@ -602,31 +602,31 @@
 
 
 .info-box{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background: rgba(255,255,255,0.15);
-    padding: 25px;
-    border-radius: 20px;
-    backdrop-filter: blur(10px);
-    margin-top: 20px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    background:rgba(255,255,255,0.15);
+    padding:25px;
+    border-radius:25px;
+    margin-top:25px;
+    backdrop-filter:blur(10px);
 }
 
 .info-box .icon{
-    font-size: 30px;
+    font-size:45px;
 }
 
 .info-box h3{
-    color: white;
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-style: italic;
+    color:white;
+    font-size:28px;
+    margin-bottom:8px;
+    font-style:italic;
 }
 
 .info-box a{
-    color: white;
-    font-size: 18px;
-    text-decoration: underline;
+    color:#4b006e;
+    font-size:22px;
+    text-decoration:underline;
 }
 
         /* Footer */
